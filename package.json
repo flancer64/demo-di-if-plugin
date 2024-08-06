@@ -1,0 +1,39 @@
+{
+  "name": "@flancer64/demo-di-if-plugin",
+  "version": "0.1.2",
+  "description": "Npm-package with plugin code (interfaces are declared here).",
+  "keywords": [
+    "demo",
+    "dependency injection",
+    "di",
+    "dynamic import",
+    "es6 modules",
+    "teqfw",
+    "tequila framework"
+  ],
+  "homepage": "https://github.com/flancer64/demo-di-if-plugin#readme",
+  "bugs": {
+    "url": "https://github.com/flancer64/demo-di-if-plugin/issues"
+  },
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Alex Gusev",
+    "email": "alex@flancer64.com",
+    "url": "https://github.com/flancer64"
+  },
+  "main": "src/Drive.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flancer64/demo-di-if-plugin.git"
+  },
+  "scripts": {
+    "build": "npm i && rm -fr ./dist/ && rollup -c && rm -fr ./node_modules/ ./package-lock.json",
+    "rollup": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "latest",
+    "@rollup/plugin-terser": "latest",
+    "rollup": "latest"
+  }
+}
