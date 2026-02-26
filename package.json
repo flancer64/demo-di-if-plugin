@@ -1,6 +1,6 @@
 {
   "name": "@flancer64/demo-di-if-plugin",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Npm-package with plugin code (interfaces are declared here).",
   "keywords": [
     "demo",
